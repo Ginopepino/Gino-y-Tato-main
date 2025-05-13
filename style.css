@@ -1,3 +1,10 @@
+@font-face {
+  font-family: "FuenteFachera";
+  src: url("fonts/CalSans-Regular.ttf");
+}
+
+
+
 body{
     background-image:url(img/Diseño\ sin\ título\ \(4\).png)
 ;
@@ -57,6 +64,21 @@ img{
 	position:relative;
 	top:1px;
 }
+#listanav{
+  background-color: #00000000;
+  list-style:none;
+  border-radius: 5px;
+  font-size: large;
+  font-family:"FuenteFachera";
+}
+#listanav a{
+  text-decoration:none;
+  color: #ffffff;
+  font-size: large;
+  font-family:"FuenteFachera";
+}
+#listanav a:hover{
+  color: rgb(102, 102, 102);}
 form {
     /* Centrar el formulario en la página */
     margin: 0 auto;
