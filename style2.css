@@ -144,3 +144,13 @@ form {
        entre las etiquetas y sus campos de texto */
     margin-left: 0.5em;
   }
+  table th{
+    background-color: blanchedalmond;
+    border: #a7a7a7;
+    border-style: double;
+    }
+  table td{
+    background-color: blanchedalmond;
+    border: #a8aca7;
+    border-style: double;
+    }
